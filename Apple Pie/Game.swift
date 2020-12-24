@@ -14,7 +14,7 @@ struct Game{
     //fileprivate - доступ только внутри этого файла
     fileprivate var guessedLetters: [Character] = [] //или [Character]() или [Character].init() - это таже самая инициализация массива
     
-    //пишем свой конструктор, потому что есть приватная переменная и контруктор поумолчанию не может работать, так как две переменные нельзя инициализировать(их же три), но и приватноую переменную мы не можем инициализировать
+    //пишем свой конструктор, потому что есть приватная переменная и конструктор по-умолчанию не может работать, так как две переменные нельзя инициализировать(их же три), но и приватноую переменную мы не можем инициализировать
     init(word: String, incorrectMovesRemaining: Int){
         self.word = word
         self.incorrectMovesRemaining = incorrectMovesRemaining
@@ -24,7 +24,7 @@ struct Game{
         var wordToShow = ""
         
         for letter in word{
-            if guessedLetters.contains(Character(letter.lowercased())){
+            if guessedLetters.contains(Character(letter.lowercased())) || letter == " " || letter == "-"{
                 wordToShow += String(letter)
             }else{
                 wordToShow += "_"
