@@ -14,6 +14,8 @@
 		79C3DB7925935E7200EB5A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C3DB7825935E7200EB5A1F /* Assets.xcassets */; };
 		79C3DB7C25935E7200EB5A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C3DB7A25935E7200EB5A1F /* LaunchScreen.storyboard */; };
 		79C3DB8C259396B700EB5A1F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3DB8B259396B700EB5A1F /* Game.swift */; };
+		79C3DB912596110400EB5A1F /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C3DB8F2596110400EB5A1F /* screenshot2.png */; };
+		79C3DB922596110400EB5A1F /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C3DB902596110400EB5A1F /* screenshot1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		79C3DB7B25935E7200EB5A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C3DB7D25935E7200EB5A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C3DB8B259396B700EB5A1F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		79C3DB8F2596110400EB5A1F /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		79C3DB902596110400EB5A1F /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		79C3DB6E25935E7100EB5A1F /* Apple Pie */ = {
 			isa = PBXGroup;
 			children = (
+				79C3DB8E259610E400EB5A1F /* ScreenShots */,
 				79C3DB6F25935E7100EB5A1F /* AppDelegate.swift */,
 				79C3DB7125935E7100EB5A1F /* SceneDelegate.swift */,
 				79C3DB7325935E7100EB5A1F /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				79C3DB8B259396B700EB5A1F /* Game.swift */,
 			);
 			path = "Apple Pie";
+			sourceTree = "<group>";
+		};
+		79C3DB8E259610E400EB5A1F /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				79C3DB902596110400EB5A1F /* screenshot1.png */,
+				79C3DB8F2596110400EB5A1F /* screenshot2.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +143,9 @@
 			files = (
 				79C3DB7C25935E7200EB5A1F /* LaunchScreen.storyboard in Resources */,
 				79C3DB7925935E7200EB5A1F /* Assets.xcassets in Resources */,
+				79C3DB912596110400EB5A1F /* screenshot2.png in Resources */,
 				79C3DB7725935E7100EB5A1F /* Main.storyboard in Resources */,
+				79C3DB922596110400EB5A1F /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
